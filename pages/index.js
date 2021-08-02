@@ -15,11 +15,8 @@ useEffect(() => {
   }, 5000);
 }, [])
 
-  
-    
-  
   return (
-    <div>
+    <div className="box1">
       <p>{state}</p>
     </div>
   )
